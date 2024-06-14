@@ -447,7 +447,7 @@
                 <key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
                 <dict>
                     <key>layout-id</key>
-                    <integer>39</integer>
+                    <integer>28</integer>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -2320,6 +2320,8 @@
                     <integer>0</integer>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
+                    <key>bluetoothInternalControllerInfo</key>
+                    <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
                     <string>keepsyms=1 swd_panic=1 revpatch=auto,sbvmm -alcbeta</string>
                     <key>run-efi-updater</key>

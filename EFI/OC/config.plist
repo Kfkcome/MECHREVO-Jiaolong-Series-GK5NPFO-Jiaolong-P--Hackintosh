@@ -2320,6 +2320,10 @@
                     <integer>0</integer>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
+                    <key>bluetoothExternalDongleFailed</key>
+                    <data>AA==</data>
+                    <key>bluetoothInternalControllerInfo</key>
+                    <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
                     <string>keepsyms=1 swd_panic=1 revpatch=auto,sbvmm -alcbeta</string>
                     <key>run-efi-updater</key>
