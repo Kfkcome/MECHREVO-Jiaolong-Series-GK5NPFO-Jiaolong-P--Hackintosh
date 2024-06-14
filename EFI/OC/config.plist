@@ -439,15 +439,15 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>##PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
-                <dict>
-                    <key>layout-id</key>
-                    <integer>21</integer>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x4)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>built-in</key>
                     <data>AA==</data>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
+                <dict>
+                    <key>layout-id</key>
+                    <integer>28</integer>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -553,7 +553,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.9 | AppleALC.kext</string>
+                    <string>V1.9.0 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1809,7 +1809,7 @@
                 <key>AppleXcpmExtraMsrs</key>
                 <false/>
                 <key>AppleXcpmForceBoost</key>
-                <false/>
+                <true/>
                 <key>CustomPciSerialDevice</key>
                 <false/>
                 <key>CustomSMBIOSGuid</key>
@@ -2321,9 +2321,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 swd_panic=1 revpatch=auto,sbvmm alcid=21</string>
-                    <key>csr-active-config</key>
-                    <data>/w8AAA==</data>
+                    <string>keepsyms=1 swd_panic=1 revpatch=auto,sbvmm -alcbeta</string>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
@@ -2616,7 +2614,7 @@
                 <key>IgnoreTextInGraphics</key>
                 <false/>
                 <key>InitialMode</key>
-                <string></string>
+                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
